@@ -1,0 +1,13 @@
+build-gen-idx:
+  generated-by: uVision version 5.42.0.0
+  generators:
+    - board: 
+      device: STM32F407VETx
+      id: CubeMX
+      output: C:/Users/vjats/Documents/STM32/Custom/STM32CubeMX/Target_1/
+      project-type: single-core
+      cbuild-gens:
+        - cbuild-gen: C:/Users/vjats/Documents/STM32/Custom/407.Target_1.cbuild-gen.yml
+          configuration: .Target_1
+          name: C:/Users/vjats/Documents/STM32/Custom/STM32CubeMX/Target_1/407.cgen.yml
+          project: 407

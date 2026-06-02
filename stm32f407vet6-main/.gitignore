@@ -1,0 +1,25 @@
+# Debug files
+
+*.bin
+*.elf
+*.list
+*.map
+*.mk
+*.d
+*.o
+*.su
+*.crf
+*.Inp
+*.axf
+*.htm
+*.hex
+
+# Eclipse paths
+**/.metadata/
+**/.settings/
+**/.jxbrowser.userdata/
+**/.launches/
+
+**/RemoteSystemsTempFiles/
+**/dvt/
+**/build/

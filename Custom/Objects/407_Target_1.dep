@@ -1,0 +1,6 @@
+Dependencies for Project '407', Target 'Target_1': (DO NOT MODIFY !)
+CompilerVersion: <unknown>
+F (.\main.c)(0x688CE6A5)()
+F (.\port_ini.c)(0x68701FB6)()
+F (.\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_gpio.c)(0x686951B8)()
+F (.\STM32F4xx_StdPeriph_Driver\src\stm32f4xx_rcc.c)(0x686951B8)()

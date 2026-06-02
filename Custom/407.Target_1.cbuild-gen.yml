@@ -1,0 +1,35 @@
+build-gen:
+  board: 
+  compiler: AC6
+  device: STM32F407VETx
+  generated-by: uVision version 5.42.0.0
+  processor:
+    core: Cortex-M4
+    dsp: off
+    endian: little
+    fpu: sp
+  add-path:
+    - C:/Users/vjats/Documents/STM32/Custom/CMSIS
+    - C:/Users/vjats/Documents/STM32/Custom/CMSIS/Device/ST/STM32F4xx/Include
+    - C:/Users/vjats/Documents/STM32/Custom/CMSIS/Device/ST/STM32F4xx/Source
+    - C:/Users/vjats/Documents/STM32/Custom/STM32F4xx_StdPeriph_Driver
+    - C:/Users/vjats/Documents/STM32/Custom/STM32F4xx_StdPeriph_Driver/inc
+    - C:/Users/vjats/Documents/STM32/Custom/STM32F4xx_StdPeriph_Driver/src
+    - C:/Users/vjats/Documents/STM32/Custom/Main
+  components:
+    - component: ARM::CMSIS:CORE@6.1.0
+      from-pack: ARM::CMSIS@6.1.0
+    - component: Keil::Device:CubeMX@1.0.0
+      from-pack: Keil::STM32F4xx_DFP@3.1.1-dev
+  apis: 
+  groups:
+    - group: Source Group 1
+      files:
+        - file: C:/Users/vjats/Documents/STM32/Custom/main.c
+          category: sourceC
+        - file: C:/Users/vjats/Documents/STM32/Custom/port_ini.c
+          category: sourceC
+        - file: C:/Users/vjats/Documents/STM32/Custom/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_gpio.c
+          category: sourceC
+        - file: C:/Users/vjats/Documents/STM32/Custom/STM32F4xx_StdPeriph_Driver/src/stm32f4xx_rcc.c
+          category: sourceC
